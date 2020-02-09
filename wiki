@@ -1,0 +1,9 @@
+#CentOS执行以下命令
+yum -y install wget unzip curl
+wget https://github.com/helloxz/ccaa/archive/master.zip
+unzip master.zip && cd ccaa-master && sh ccaa.sh
+
+#Debian/Ubuntu执行以下命令
+apt-get install -y wget unzip curl
+wget https://github.com/helloxz/ccaa/archive/master.zip && unzip master.zip
+cd ccaa-master && chmod +x *.sh && ./ccaa.sh
